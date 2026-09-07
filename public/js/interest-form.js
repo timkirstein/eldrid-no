@@ -2,9 +2,9 @@
 // Writes to Firestore collection `interestSignups` (allow-create-only rule
 // in firestore.rules) via the Firebase modular Web SDK, loaded straight from
 // Google's CDN -- no bundler in this static site. Falls back to a mailto:
-// link if Firebase isn't configured yet (see firebase-config.js) or if the
-// write fails for any reason, so the form never dead-ends a visitor.
-import { firebaseConfig, isFirebaseConfigured } from './firebase-config.js';
+// link if the write fails for any reason, so the form never dead-ends a
+// visitor (e.g. an ad/tracker blocker stopping the Firestore request).
+import { firebaseConfig } from './firebase-config.js';
 
 const form = document.getElementById('interest-form');
 if (form) {
@@ -31,9 +31,6 @@ if (form) {
     submitBtn.textContent = 'Sender…';
 
     try {
-      if (!isFirebaseConfigured) {
-        throw new Error('not-configured');
-      }
       await submitToFirestore({ name, email, phone, role });
       form.hidden = true;
       setStatus(
