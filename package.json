@@ -1,0 +1,13 @@
+{
+  "name": "eldrid-web",
+  "private": true,
+  "type": "module",
+  "description": "Static generator for the eldrid.no marketing site + blog (Firebase Hosting).",
+  "scripts": {
+    "build": "node build.mjs",
+    "og-image": "node scripts/generate-og-image.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.56.1"
+  }
+}

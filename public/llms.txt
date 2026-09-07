@@ -1,0 +1,24 @@
+# Eldrid
+
+> Eldrid er en digital rådgiver som hjelper eldre og deres pårørende å vurdere om en SMS, e-post eller melding er svindel — på sekunder, uten skam eller skjenn.
+
+Eldrid er en app under utvikling (Norge) der en eldre person deler et skjermbilde av en mistenkelig SMS, e-post, annonse eller profil, og får et rådgivende svar (BEDRAGERI / USIKKER / EKTE) med en konkret anbefaling. Pårørende kan valgfritt kobles til for varsling og en nødknapp. Nettstedet under er en informasjons- og interesseside, ikke selve appen.
+
+## Sider
+
+- [Forsiden](https://eldrid.no/): problemet Eldrid løser, hvordan appen fungerer, og et skjema for å melde interesse.
+- [Blogg](https://eldrid.no/blogg/): oversikt over artikler om svindelmetoder rettet mot eldre i Norge.
+- [Svindel mot eldre i Norge: full oversikt over de vanligste metodene](https://eldrid.no/blogg/svindel-mot-eldre-i-norge-full-oversikt/): Hundretusener av eldre nordmenn er rammet av svindel. Her er en oversikt over de mest utbredte metodene i 2026 — og hvordan du kjenner dem igjen.
+- [Falske politi- og bankoppringninger: derfor virker "spoofing" så ekte](https://eldrid.no/blogg/spoofing-falske-politi-og-bankoppringninger/): Elleve personer er dømt for å ha svindlet 150 eldre for 28 millioner kroner ved å utgi seg for politi og bank på telefon. Slik fungerer "spoofing" — og slik kjenner du det igjen.
+- [Vipps-svindel: falsk restskatt og hvorfor Vipps nå bruker en KI-vakt kalt Olga](https://eldrid.no/blogg/vipps-svindel-og-falsk-restskatt/): Skatteetaten advarer mot svindlere som ber om "restskatt" via Vipps. Se hvordan svindelen fungerer, og hvordan Vipps sin nye KI-agent Olga forsøker å stanse den.
+- [AI-stemmekloning: når "barnebarnet" som ringer er en robot](https://eldrid.no/blogg/ai-stemmekloning-barnebarnsvindel/): Deepfake-svindel har økt over 2000 % på tre år. Slik brukes AI-klonede stemmer til å utgi seg for barn og barnebarn i akutt pengenød — og slik beskytter du deg.
+- [Kjærlighetssvindel: nordmenn lurt for 24 millioner kroner på nett](https://eldrid.no/blogg/kjaerlighetssvindel-nettdating/): Antall kjærlighetssvindel-saker har tredoblet seg hos enkelte banker. Nesten 80 % av ofrene for økonomisk svindel er over 60 år. Slik gjenkjenner du varselsignalene.
+- [Falsk BankID-SMS: derfor er dette en av de farligste svindelmetodene](https://eldrid.no/blogg/falsk-bankid-sms-phishing/): BankID sender aldri SMS med lenker. Likevel er falske "BankID sperret"-meldinger blant de mest utbredte phishing-forsøkene mot norske eldre. Slik unngår du å bli lurt.
+- [Investeringssvindel: tapene har økt fra 864 millioner til 2,1 milliarder kroner](https://eldrid.no/blogg/investeringssvindel-og-kryptosvindel/): Investeringssvindel i Norge har mer enn doblet seg siden 2020. Løfter om garantert avkastning på krypto er blant de vanligste fellene — og pengene er nesten alltid tapt for godt.
+- [Falske pakke-SMS-er: "Bring"-svindelen som treffer nesten alle](https://eldrid.no/blogg/falske-pakke-sms-smishing/): Posten og Bring advarer jevnlig mot falske SMS-er om en pakke som ikke kunne leveres. Slik ser svindelen ut, og hvorfor den fungerer så godt.
+- [Gavekortsvindel: hvorfor svindlere elsker Apple- og Google-gavekort](https://eldrid.no/blogg/gavekortsvindel/): DNB melder om vedvarende gavekortsvindel der eldre overtales til å kjøpe store summer i Apple-gavekort og lese opp koden til en fremmed. Slik gjenkjenner du forsøket.
+- [Personvernerklæring](https://eldrid.no/personvern/)
+
+## Kontakt
+
+E-post: hei@eldrid.no
