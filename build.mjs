@@ -335,8 +335,8 @@ function renderHome() {
             <label for="consent">Jeg samtykker til å bli kontaktet om Eldrid, og har lest <a href="/personvern/">personvernerklæringen</a>.</label>
           </div>
           <button class="btn btn-primary" type="submit" style="width:100%;">Meld interesse</button>
-          <div class="form-status" id="interest-form-status" role="status" aria-live="polite"></div>
         </form>
+        <div class="form-status" id="interest-form-status" role="status" aria-live="polite"></div>
       </div>
     </div>
   </section>
