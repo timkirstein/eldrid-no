@@ -102,18 +102,8 @@ a {
 .brand .mark {
   width: 34px;
   height: 34px;
-  border-radius: 10px;
-  background: var(--primary);
-  color: var(--on-primary);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 800;
-  font-size: 17px;
-}
-
-.brand .mark .dot {
-  color: var(--accent);
+  display: block;
+  flex-shrink: 0;
 }
 
 nav.site-nav ul {

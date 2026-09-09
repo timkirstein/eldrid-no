@@ -82,7 +82,7 @@ function header(activePath) {
   <header class="site-header">
     <div class="wrap">
       <a class="brand" href="/">
-        <span class="mark">E<span class="dot">.</span></span>
+        <img class="mark" src="/favicon.svg" alt="" width="34" height="34">
         ${esc(site.name)}
       </a>
       <nav class="site-nav" aria-label="Hovedmeny">
