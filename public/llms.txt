@@ -2,7 +2,7 @@
 
 > Eldrid er en nettleser for eldre med automatisk svindelbeskyttelse i bakgrunnen og en alltid synlig «Sjekk dette»-knapp som gir et rådgivende svar på sekunder — laget for eldre og deres pårørende, uten skam eller skjenn.
 
-Eldrid er en app under utvikling (Norge) som fungerer som en nettleser for eldre, med automatisk svindelbeskyttelse i bakgrunnen (domenerykte- og forfalskningssjekk mot kjente bank- og myndighetsdomener) og en alltid synlig «Sjekk dette»-knapp som gir et rådgivende svar (BEDRAGERI / USIKKER / EKTE) med en konkret anbefaling på det brukeren ser på skjermen — enten det er en nettside, SMS, e-post, annonse eller profil. Skjermbilde-deling og videresending av e-post finnes fortsatt som et alternativ. Pårørende kan valgfritt kobles til for varsling og en nødknapp. Nettstedet under er en informasjons- og interesseside, ikke selve appen.
+Eldrid er en app under utvikling (Norge) som fungerer som en nettleser for eldre, med automatisk svindelbeskyttelse i bakgrunnen (domenerykte- og forfalskningssjekk mot kjente bank- og myndighetsdomener) og en alltid synlig «Sjekk dette»-knapp som gir et rådgivende svar (BEDRAGERI / USIKKER / EKTE) på det brukeren ser i nettleseren akkurat nå — en nettside, en e-post lest på nettet, en annonse eller en profil. En mistenkelig SMS eller et fysisk brev sjekkes i stedet via skjermbilde-deling eller videresending av e-post, som fortsatt finnes som et alternativ. Pårørende kan valgfritt kobles til for varsling og en nødknapp. Nettstedet under er en informasjons- og interesseside, ikke selve appen.
 
 ## Sider
 

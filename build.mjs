@@ -171,7 +171,7 @@ const homeFaq = [
   },
   {
     q: 'Hvilke typer meldinger kan jeg sjekke med Eldrid?',
-    a: 'Alt du kommer over i Eldrids nettleser — nettsider, SMS, e-post, annonser, profiler i sosiale medier og til og med fysiske brev. Trykk «Sjekk dette» for det du ser på skjermen akkurat nå, eller bruk skjermbilde-deling eller videresending av e-post som et alternativ.',
+    a: 'Nettsider, e-post du leser i nettleseren, annonser og profiler i sosiale medier kan du sjekke direkte med «Sjekk dette» — Eldrid fanger automatisk det du ser på skjermen. Fikk du i stedet en mistenkelig SMS eller et fysisk brev, tar du et skjermbilde og laster det opp i appen som et alternativ.',
   },
 ];
 
@@ -236,8 +236,8 @@ function renderHome() {
         </div>
         <div class="step-card">
           <div class="step-num">2</div>
-          <h3>Trykk «Sjekk dette» når du er usikker</h3>
-          <p>Ser du noe som virker mistenkelig — en side, en SMS eller en e-post? Trykk på den alltid synlige «Sjekk dette»-knappen, og Eldrid fanger automatisk det du ser på skjermen.</p>
+          <h3>Trykk «Sjekk dette» når en side virker mistenkelig</h3>
+          <p>Ser du noe rart på en nettside — for eksempel en side som ber om betaling eller personopplysninger? Trykk på den alltid synlige «Sjekk dette»-knappen, og Eldrid fanger automatisk det du ser på skjermen.</p>
         </div>
         <div class="step-card">
           <div class="step-num">3</div>
@@ -245,7 +245,7 @@ function renderHome() {
           <p>Eldrid forklarer i vanlig språk hva den ser, og hva du bør gjøre videre — og spør om mer informasjon hvis noe er uklart, ett spørsmål av gangen.</p>
         </div>
       </div>
-      <p style="text-align:center; color:var(--text-muted); margin-top:28px;">Foretrekker du det du er vant til? Du kan fortsatt ta et skjermbilde eller videresende en mistenkelig e-post direkte til Eldrid — det finner du under «Mer» i appen.</p>
+      <p style="text-align:center; color:var(--text-muted); margin-top:28px;">Fikk du i stedet en mistenkelig SMS, eller vil du sjekke noe utenfor nettleseren? Ta et skjermbilde, eller videresend en e-post direkte til Eldrid — det finner du under «Mer» i appen.</p>
     </div>
   </section>
 
@@ -546,7 +546,7 @@ function renderLlmsTxt() {
     '',
     `> ${site.description}`,
     '',
-    'Eldrid er en app under utvikling (Norge) som fungerer som en nettleser for eldre, med automatisk svindelbeskyttelse i bakgrunnen (domenerykte- og forfalskningssjekk mot kjente bank- og myndighetsdomener) og en alltid synlig «Sjekk dette»-knapp som gir et rådgivende svar (BEDRAGERI / USIKKER / EKTE) med en konkret anbefaling på det brukeren ser på skjermen — enten det er en nettside, SMS, e-post, annonse eller profil. Skjermbilde-deling og videresending av e-post finnes fortsatt som et alternativ. Pårørende kan valgfritt kobles til for varsling og en nødknapp. Nettstedet under er en informasjons- og interesseside, ikke selve appen.',
+    'Eldrid er en app under utvikling (Norge) som fungerer som en nettleser for eldre, med automatisk svindelbeskyttelse i bakgrunnen (domenerykte- og forfalskningssjekk mot kjente bank- og myndighetsdomener) og en alltid synlig «Sjekk dette»-knapp som gir et rådgivende svar (BEDRAGERI / USIKKER / EKTE) på det brukeren ser i nettleseren akkurat nå — en nettside, en e-post lest på nettet, en annonse eller en profil. En mistenkelig SMS eller et fysisk brev sjekkes i stedet via skjermbilde-deling eller videresending av e-post, som fortsatt finnes som et alternativ. Pårørende kan valgfritt kobles til for varsling og en nødknapp. Nettstedet under er en informasjons- og interesseside, ikke selve appen.',
     '',
     '## Sider',
     '',
