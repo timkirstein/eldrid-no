@@ -4,9 +4,9 @@
 export const site = {
   name: 'Eldrid',
   baseUrl: 'https://eldrid.no',
-  tagline: 'Usikker på en melding? Spør Eldrid.',
+  tagline: 'Trygg nettlesing for eldre, med et klart svar et trykk unna.',
   description:
-    'Eldrid er en digital rådgiver som hjelper eldre og deres pårørende å vurdere om en SMS, e-post eller melding er svindel — på sekunder, uten skam eller skjenn.',
+    'Eldrid er en nettleser for eldre med automatisk svindelbeskyttelse i bakgrunnen og en alltid synlig «Sjekk dette»-knapp som gir et rådgivende svar på sekunder — laget for eldre og deres pårørende, uten skam eller skjenn.',
   locale: 'nb_NO',
   email: 'hei@eldrid.no',
   colors: {

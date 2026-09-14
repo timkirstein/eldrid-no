@@ -155,11 +155,15 @@ const homeFaq = [
   },
   {
     q: 'Koster Eldrid noe?',
-    a: 'Eldrid er foreløpig i tidlig fase, og alle som melder interesse får tilgang som en del av en gratis tidligfase. Et abonnement vil aldri kreve en tilkoblet pårørende — en senior kan bruke og eventuelt betale for Eldrid helt på egen hånd.',
+    a: 'Eldrid er foreløpig i en lukket testfase. Meld interesse på denne siden, og når du registrerer deg i appen får du en begrenset versjon mens vi gir tilgang fortløpende og manuelt — ikke automatisk med én gang. Når Eldrid lanseres for alle, vil et abonnement aldri kreve en tilkoblet pårørende: en senior kan bruke og eventuelt betale for Eldrid helt på egen hånd.',
+  },
+  {
+    q: 'Hva gjør den automatiske beskyttelsen i bakgrunnen?',
+    a: 'Hver side du åpner i Eldrids nettleser sjekkes automatisk — blant annet mot Googles register over farlige nettsteder, og en egen sjekk for falske adresser laget for å ligne ekte norske bank- og myndighetssider (for eksempel «dnnb.no» i stedet for «dnb.no»). Du trenger ikke gjøre noe selv for at denne beskyttelsen skal virke.',
   },
   {
     q: 'Må jeg laste ned en egen app for å bruke Eldrid?',
-    a: 'Eldrid lanseres som en app for iOS og Android, der du deler skjermbilder direkte fra delingsmenyen du allerede kjenner. Meld interesse på denne siden, så gir vi deg beskjed så snart du kan komme i gang.',
+    a: 'Ja, Eldrid er en app for iOS og Android som fungerer som din vanlige nettleser, med automatisk svindelbeskyttelse og en «Sjekk dette»-knapp for et raskt, rådgivende svar. Meld interesse på denne siden, så gir vi deg beskjed så snart du kan komme i gang.',
   },
   {
     q: 'Fungerer Eldrid uten at en pårørende er koblet til?',
@@ -167,7 +171,7 @@ const homeFaq = [
   },
   {
     q: 'Hvilke typer meldinger kan jeg sjekke med Eldrid?',
-    a: 'SMS, e-post, meldinger i sosiale medier, annonser, profiler og til og med fysiske brev — ta et skjermbilde eller, for e-post, videresend den direkte til Eldrid.',
+    a: 'Alt du kommer over i Eldrids nettleser — nettsider, SMS, e-post, annonser, profiler i sosiale medier og til og med fysiske brev. Trykk «Sjekk dette» for det du ser på skjermen akkurat nå, eller bruk skjermbilde-deling eller videresending av e-post som et alternativ.',
   },
 ];
 
@@ -179,15 +183,15 @@ function renderHome() {
     <div class="wrap">
       <div>
         <span class="eyebrow">Trygghet mot svindel</span>
-        <h1>Fikk du en mistenkelig melding?<br>Spør Eldrid før du svarer.</h1>
-        <p class="lede">Eldrid er en digital rådgiver som på sekunder vurderer om en SMS, e-post, annonse eller telefonsamtale-oppfølging er svindel — laget for eldre og deres pårørende, uten skam og uten skjenn.</p>
+        <h1>En nettleser som passer på deg —<br>og svarer når du er usikker.</h1>
+        <p class="lede">Eldrid er nettleseren du bruker som vanlig. I bakgrunnen sjekker den automatisk at nettstedene du besøker er ekte, og med et trykk på «Sjekk dette» får du et klart svar på sekunder om noe du ser er svindel.</p>
         <div class="hero-actions">
           <a class="btn btn-primary" href="#interessert">Meld interesse</a>
           <a class="btn btn-secondary" href="#slik-fungerer-det">Se hvordan det fungerer</a>
         </div>
       </div>
       <div class="hero-card" aria-hidden="true">
-        <div class="chat-bubble from-user">📷 Delte et skjermbilde: «Vipps: Du skylder restskatt, betal her»</div>
+        <div class="chat-bubble from-user">🔍 Trykket «Sjekk dette» på en side som ba om betaling via Vipps</div>
         <div class="chat-bubble from-eldrid">
           Dette ser ut som svindel. Skatteetaten ber aldri om betaling via Vipps etter en telefonsamtale eller SMS.
           <div class="verdict fraud">🚩 BEDRAGERI</div>
@@ -223,17 +227,17 @@ function renderHome() {
   <section id="slik-fungerer-det">
     <div class="wrap">
       <h2 class="section-title">Slik fungerer Eldrid</h2>
-      <p class="section-lede">Ingen nytt passord å huske, ingen kompliserte menyer — bare den delingsmenyen du allerede kjenner fra bilder og meldinger.</p>
+      <p class="section-lede">Ingen nytt passord å huske, ingen kompliserte menyer — bare en nettleser som ser ut som den du er vant til, med en ekstra trygghet innebygd.</p>
       <div class="steps">
         <div class="step-card">
           <div class="step-num">1</div>
-          <h3>Ta et skjermbilde — eller videresend e-posten</h3>
-          <p>Fikk du en mistenkelig SMS, e-post, annonse eller melding? Ta et skjermbilde, eller videresend e-posten direkte til din egen Eldrid-adresse.</p>
+          <h3>Åpne Eldrid og surf som vanlig</h3>
+          <p>Bruk Eldrid som din vanlige nettleser. I bakgrunnen sjekker den automatisk hvert nettsted du besøker, og varsler deg før du kommer til en falsk bank- eller myndighetsside.</p>
         </div>
         <div class="step-card">
           <div class="step-num">2</div>
-          <h3>Del det med Eldrid</h3>
-          <p>Del bildet til Eldrid akkurat som du deler et bilde til en hvilken som helst annen app — samme kjente delingsmeny.</p>
+          <h3>Trykk «Sjekk dette» når du er usikker</h3>
+          <p>Ser du noe som virker mistenkelig — en side, en SMS eller en e-post? Trykk på den alltid synlige «Sjekk dette»-knappen, og Eldrid fanger automatisk det du ser på skjermen.</p>
         </div>
         <div class="step-card">
           <div class="step-num">3</div>
@@ -241,6 +245,7 @@ function renderHome() {
           <p>Eldrid forklarer i vanlig språk hva den ser, og hva du bør gjøre videre — og spør om mer informasjon hvis noe er uklart, ett spørsmål av gangen.</p>
         </div>
       </div>
+      <p style="text-align:center; color:var(--text-muted); margin-top:28px;">Foretrekker du det du er vant til? Du kan fortsatt ta et skjermbilde eller videresende en mistenkelig e-post direkte til Eldrid — det finner du under «Mer» i appen.</p>
     </div>
   </section>
 
@@ -436,7 +441,7 @@ function renderPost(post) {
 
     <div class="callout">
       <h2>Har du en mistenkelig melding akkurat nå?</h2>
-      <p>Ta et skjermbilde og del det med Eldrid for en rask, rådgivende vurdering — helt uten skam og uten skjenn. <a href="/#interessert">Meld interesse</a> for tidlig tilgang.</p>
+      <p>I Eldrids nettleser er svaret ett trykk unna: trykk «Sjekk dette» for en rask, rådgivende vurdering — helt uten skam og uten skjenn. <a href="/#interessert">Meld interesse</a> for tidlig tilgang.</p>
     </div>
 
     ${post.faq && post.faq.length ? `
@@ -541,7 +546,7 @@ function renderLlmsTxt() {
     '',
     `> ${site.description}`,
     '',
-    'Eldrid er en app under utvikling (Norge) der en eldre person deler et skjermbilde av en mistenkelig SMS, e-post, annonse eller profil, og får et rådgivende svar (BEDRAGERI / USIKKER / EKTE) med en konkret anbefaling. Pårørende kan valgfritt kobles til for varsling og en nødknapp. Nettstedet under er en informasjons- og interesseside, ikke selve appen.',
+    'Eldrid er en app under utvikling (Norge) som fungerer som en nettleser for eldre, med automatisk svindelbeskyttelse i bakgrunnen (domenerykte- og forfalskningssjekk mot kjente bank- og myndighetsdomener) og en alltid synlig «Sjekk dette»-knapp som gir et rådgivende svar (BEDRAGERI / USIKKER / EKTE) med en konkret anbefaling på det brukeren ser på skjermen — enten det er en nettside, SMS, e-post, annonse eller profil. Skjermbilde-deling og videresending av e-post finnes fortsatt som et alternativ. Pårørende kan valgfritt kobles til for varsling og en nødknapp. Nettstedet under er en informasjons- og interesseside, ikke selve appen.',
     '',
     '## Sider',
     '',

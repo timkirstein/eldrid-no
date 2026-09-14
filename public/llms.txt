@@ -1,8 +1,8 @@
 # Eldrid
 
-> Eldrid er en digital rådgiver som hjelper eldre og deres pårørende å vurdere om en SMS, e-post eller melding er svindel — på sekunder, uten skam eller skjenn.
+> Eldrid er en nettleser for eldre med automatisk svindelbeskyttelse i bakgrunnen og en alltid synlig «Sjekk dette»-knapp som gir et rådgivende svar på sekunder — laget for eldre og deres pårørende, uten skam eller skjenn.
 
-Eldrid er en app under utvikling (Norge) der en eldre person deler et skjermbilde av en mistenkelig SMS, e-post, annonse eller profil, og får et rådgivende svar (BEDRAGERI / USIKKER / EKTE) med en konkret anbefaling. Pårørende kan valgfritt kobles til for varsling og en nødknapp. Nettstedet under er en informasjons- og interesseside, ikke selve appen.
+Eldrid er en app under utvikling (Norge) som fungerer som en nettleser for eldre, med automatisk svindelbeskyttelse i bakgrunnen (domenerykte- og forfalskningssjekk mot kjente bank- og myndighetsdomener) og en alltid synlig «Sjekk dette»-knapp som gir et rådgivende svar (BEDRAGERI / USIKKER / EKTE) med en konkret anbefaling på det brukeren ser på skjermen — enten det er en nettside, SMS, e-post, annonse eller profil. Skjermbilde-deling og videresending av e-post finnes fortsatt som et alternativ. Pårørende kan valgfritt kobles til for varsling og en nødknapp. Nettstedet under er en informasjons- og interesseside, ikke selve appen.
 
 ## Sider
 
