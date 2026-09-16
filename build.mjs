@@ -525,6 +525,35 @@ function renderPrivacy() {
   });
 }
 
+// ---------- delete-account page ----------
+
+function renderDeleteAccount() {
+  const body = `
+  <section class="article-header">
+    <div class="wrap">
+      <span class="eyebrow">Konto</span>
+      <h1>Slett konto og data</h1>
+      <p class="article-meta">Sist oppdatert ${dateFormatter.format(new Date())}</p>
+    </div>
+  </section>
+  <article class="article-body wrap">
+    <h2>I appen (raskest)</h2>
+    <p>Åpne Eldrid-appen, trykk <strong>Mer</strong> nederst til høyre, deretter <strong>Personvern</strong>, og til slutt <strong>«Slett kontoen min»</strong>. Slettingen skjer med det samme og kan ikke angres.</p>
+    <h2>Uten appen</h2>
+    <p>Har du ikke lenger appen installert? Send en e-post til <a href="mailto:${site.email}">${site.email}</a> med telefonnummeret kontoen er registrert med, så sletter vi den for deg.</p>
+    <h2>Hva som slettes</h2>
+    <p>Kontoen din, all sakshistorikk (samtaler med «Spør Eldrid»), bokmerker, koblinger til pårørende og opplastede bilder slettes permanent. Dette gjelder alt som er lagret under kontoen din, uavhengig av om du sletter i appen eller ber oss gjøre det.</p>
+  </article>`;
+
+  return page({
+    path: '/slett-konto/',
+    title: 'Slett konto og data',
+    description: 'Slik sletter du kontoen din og alle data lagret i Eldrid-appen.',
+    activePath: '/slett-konto',
+    bodyHtml: body,
+  });
+}
+
 // ---------- sitemap + llms.txt ----------
 
 function renderSitemap() {
@@ -533,6 +562,7 @@ function renderSitemap() {
     { path: '/blogg/', priority: '0.8' },
     ...sortedPosts.map(p => ({ path: `/blogg/${p.slug}/`, priority: '0.7', lastmod: p.date })),
     { path: '/personvern/', priority: '0.2' },
+    { path: '/slett-konto/', priority: '0.2' },
   ];
   const body = urls
     .map(u => `  <url>\n    <loc>${site.baseUrl}${u.path}</loc>\n${u.lastmod ? `    <lastmod>${u.lastmod}</lastmod>\n` : ''}    <priority>${u.priority}</priority>\n  </url>`)
@@ -581,6 +611,7 @@ for (const post of posts) {
   write(`blogg/${post.slug}/index.html`, renderPost(post));
 }
 write('personvern/index.html', renderPrivacy());
+write('slett-konto/index.html', renderDeleteAccount());
 write('sitemap.xml', renderSitemap());
 write('llms.txt', renderLlmsTxt());
 
